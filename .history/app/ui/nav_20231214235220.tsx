@@ -9,7 +9,7 @@ export default async function Navbar() {
           href='/'
           className={`${comfortaa.className} antialiased font-bold text:2xl md:text-3xl text-logo`}
         >
-          david<span>.</span>
+          Muturi<span>.</span>
         </Link>
         <div className='flex items-center gap-2'>
           <a

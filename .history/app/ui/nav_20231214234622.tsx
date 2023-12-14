@@ -3,13 +3,13 @@ import { comfortaa } from '@/app/ui/fonts';
 
 export default async function Navbar() {
   return (
-    <div className='flex justify-center items-center'>
+    <div className='flex justify-center items-center border-b fixed'>
       <div className='sticky flex items-start md:max-w-3xl py-3 w-full md:px-5 px-5 justify-between'>
         <Link
           href='/'
           className={`${comfortaa.className} antialiased font-bold text:2xl md:text-3xl text-logo`}
         >
-          david<span>.</span>
+          Muturi<span>.</span>
         </Link>
         <div className='flex items-center gap-2'>
           <a
