@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #0F0F0F;
+}
+
+/* Tailwind Styles */
+
+/*.app {
+    @apply relative z-10 flex justify-center items-center flex-col max-w-3xl mx-auto sm:px-16 px-6;
+} */
+
+.connect {
+    @apply rounded-md border bg-slate-300 py-5 px-1.5 text-sm text-black transition-all hover:bg-slate-800 hover:text-black;
+}
