@@ -15,7 +15,10 @@ export default async function About() {
           I&apos;m {about.paragraph} <br />
           {about.paragraph2}
         </p>
-        <i className='text-white text-2xl py-3'>ⓘ this dev is subscribed to fireship on YouTube </i>
+        <p className={`${comfortaa.className} text-white text-2xl`}>
+          Here are a few technologies I&apos;ve been working with recently:
+        </p>
+        <i>  ⓘ this dev is subscribed to fireship on YouTube </i>
         <div className='flex flex-row md:max-w-3xl pt-3 md:py-5 py-10 w-full md:px-5 px-5 justify-center space-x-12 md:space-x-20'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
@@ -36,7 +39,7 @@ export default async function About() {
           </svg>
           <div className='flex items-center gap-2'>
             <a
-              href='mailto:muturidavid854@gmail.com'
+              href='/'
               target='_blank'
               rel='_noreferrer'
               className='flex items-center gap-1 md:hover:bg-slate-200 rounded-md px-12 bg-white text-black font-medium py-[1.08rem]'

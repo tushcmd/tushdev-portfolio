@@ -6,7 +6,7 @@ import { Terminal } from 'lucide-react';
 
 export default async function Hero() {
   return (
-    <section className='relative flex flex-col justify-center items-center md:py-16 py-6 overflow-auto'>
+    <section className='relative flex flex-col justify-center md:h-screen items-center md:py-16 py-6 overflow-auto'>
       <div className='flex items-start flex-col md:max-w-3xl pb-6 w-full md:px-5 px-5 justify-between'>
         <p className={`${comfortaa.className} text-3xl text-white pb-3`}>
           Hi there, I&apos;m
@@ -23,8 +23,8 @@ export default async function Hero() {
       <div className='flex flex-row md:max-w-3xl pt-3 md:pt-5 pb-3 w-full md:px-5 px-5 justify-center space-x-12 md:space-x-20'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
-          width='60'
-          height='60'
+          width='52'
+          height='52'
           viewBox='0 0 24 24'
           fill='none'
           stroke='#142c3e'

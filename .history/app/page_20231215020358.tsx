@@ -4,7 +4,7 @@ import About from './ui/about';
 
 export default function Page() {
   return (
-    <main>
+    <main className='overflow:scroll'>
       <Navbar />
       <Hero />
       <About />

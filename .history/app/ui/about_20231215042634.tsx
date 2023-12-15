@@ -36,7 +36,7 @@ export default async function About() {
           </svg>
           <div className='flex items-center gap-2'>
             <a
-              href='mailto:muturidavid854@gmail.com'
+              href='/'
               target='_blank'
               rel='_noreferrer'
               className='flex items-center gap-1 md:hover:bg-slate-200 rounded-md px-12 bg-white text-black font-medium py-[1.08rem]'

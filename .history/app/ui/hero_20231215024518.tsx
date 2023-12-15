@@ -23,8 +23,8 @@ export default async function Hero() {
       <div className='flex flex-row md:max-w-3xl pt-3 md:pt-5 pb-3 w-full md:px-5 px-5 justify-center space-x-12 md:space-x-20'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
-          width='60'
-          height='60'
+          width='36'
+          height='36'
           viewBox='0 0 24 24'
           fill='none'
           stroke='#142c3e'
@@ -41,7 +41,7 @@ export default async function Hero() {
             href='/'
             target='_blank'
             rel='_noreferrer'
-            className='flex items-center gap-1 md:hover:bg-slate-200 rounded-md px-12 bg-white text-black font-medium py-[1.08rem]'
+            className='flex items-center gap-1 md:hover:bg-slate-200 rounded-md px-5 bg-white text-black font-medium py-[0.45rem]'
           >
             View Resume
           </a>

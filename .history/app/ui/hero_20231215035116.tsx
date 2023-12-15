@@ -6,7 +6,7 @@ import { Terminal } from 'lucide-react';
 
 export default async function Hero() {
   return (
-    <section className='relative flex flex-col justify-center items-center md:py-16 py-6 overflow-auto'>
+    <section className='relative flex flex-col justify-center md:h-screen items-center md:py-16 py-6 overflow-auto'>
       <div className='flex items-start flex-col md:max-w-3xl pb-6 w-full md:px-5 px-5 justify-between'>
         <p className={`${comfortaa.className} text-3xl text-white pb-3`}>
           Hi there, I&apos;m
