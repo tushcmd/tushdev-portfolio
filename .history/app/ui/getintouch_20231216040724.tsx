@@ -1,11 +1,11 @@
 import { montserrat } from '@/app/ui/fonts';
-import about from '@/app/ui/about';
+import about from '@/constants/about';
 
 export default async function GetInTouch() {
   return (
     <section className='relative flex flex-col justify-center items-center'>
       <div className='flex items-start flex-col md:max-w-3xl pb-10 w-full md:px-5 px-5 justify-between'>
-        <div className='flex items-center'>
+        <div className='items-center'>
             <h6
             className={`${montserrat.className} text-gray-400 text-2xl md:text-3xl pb-6 inline-flex`}
             >
@@ -36,17 +36,7 @@ export default async function GetInTouch() {
           question or just want to say hi, feel free. I typically respond as
           fast as my next nearest break.
         </p>
-        <div className='flex flex-row md:max-w-3xl md:py-8 py-10 w-full md:px-5 px-5 justify-center space-x-12 md:space-x-20'>
-          <div className='flex items-center gap-2'>
-            <a
-              href='mailto:muturidavid854@gmail.com'
-              target='_blank'
-              rel='_noreferrer'
-              className='flex items-center gap-1 md:hover:bg-slate-200 text-xm md:text-base rounded-md px-12 bg-gray-400 text-black font-medium py-[1.08rem]'
-            >
-              Get In Touch
-            </a>
-          </div>
+        <div className='flex flex-row md:max-w-3xl pt-3 md:py-5 py-10 w-full md:px-5 px-5 justify-center space-x-12 md:space-x-20'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             width='60'
@@ -63,6 +53,16 @@ export default async function GetInTouch() {
             <path d='m10 8-2 2 2 2' />
             <path d='m14 8 2 2-2 2' />
           </svg>
+          <div className='flex items-center gap-2'>
+            <a
+              href='mailto:muturidavid854@gmail.com'
+              target='_blank'
+              rel='_noreferrer'
+              className='flex items-center gap-1 md:hover:bg-slate-200 text-xm md:text-base rounded-md px-12 bg-gray-400 text-black font-medium py-[1.08rem]'
+            >
+              Get In Touch
+            </a>
+          </div>
         </div>
       </div>
     </section>

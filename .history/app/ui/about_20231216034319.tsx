@@ -1,3 +1,4 @@
+import { comfortaa } from '@/app/ui/fonts';
 import { montserrat } from '@/app/ui/fonts'
 import about from '@/constants/about';
 
@@ -5,11 +6,11 @@ export default async function About() {
   return (
     <section className='relative flex flex-col justify-center items-center'>
       <div className='flex items-start flex-col md:max-w-3xl pb-10 w-full md:px-5 px-5 justify-between'>
-        <h2
+        <h6
           className={`${montserrat.className} text-gray-400 text-2xl md:text-3xl pb-6`}
         >
-          About Me
-        </h2>
+          01.ABOUT ME
+        </h6>
         <p className={`${montserrat.className} text-gray-400 text-base md:text-xl`}>
           I&apos;m {about.paragraph} <br />
           {about.paragraph2}

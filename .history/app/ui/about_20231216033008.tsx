@@ -1,3 +1,4 @@
+import { comfortaa } from '@/app/ui/fonts';
 import { montserrat } from '@/app/ui/fonts'
 import about from '@/constants/about';
 
@@ -5,16 +6,16 @@ export default async function About() {
   return (
     <section className='relative flex flex-col justify-center items-center'>
       <div className='flex items-start flex-col md:max-w-3xl pb-10 w-full md:px-5 px-5 justify-between'>
-        <h2
-          className={`${montserrat.className} text-gray-400 text-2xl md:text-3xl pb-6`}
+        <h6
+          className={`${montserrat.className} text-gray-400 text-3xl md:text-4xl pb-6`}
         >
-          About Me
-        </h2>
-        <p className={`${montserrat.className} text-gray-400 text-base md:text-xl`}>
+          01.About Me
+        </h6>
+        <p className={`${montserrat.className} text-white text-xl md:text-2xl`}>
           I&apos;m {about.paragraph} <br />
           {about.paragraph2}
         </p>
-        <i className={`${montserrat.className} text-gray-400 text-base md:text-xl py-6 items-center}`}>ⓘ this dev is subscribed to fireship on YouTube </i>
+        <i className={`${montserrat.className} text-gray-400 text-xl py-6 items-center}`}>ⓘ this dev is subscribed to fireship on YouTube </i>
         <div className='flex flex-row md:max-w-3xl pt-3 md:py-5 py-10 w-full md:px-5 px-5 justify-center space-x-12 md:space-x-20'>
           <svg
             xmlns='http://www.w3.org/2000/svg'

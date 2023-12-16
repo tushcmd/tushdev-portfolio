@@ -1,5 +1,5 @@
 import { montserrat } from '@/app/ui/fonts';
-import about from '@/app/ui/about';
+import about from '@/constants/about';
 
 export default async function GetInTouch() {
   return (
@@ -36,7 +36,7 @@ export default async function GetInTouch() {
           question or just want to say hi, feel free. I typically respond as
           fast as my next nearest break.
         </p>
-        <div className='flex flex-row md:max-w-3xl md:py-8 py-10 w-full md:px-5 px-5 justify-center space-x-12 md:space-x-20'>
+        <div className='flex flex-row md:max-w-3xl pt-3 md:py-5 py-10 w-full md:px-5 px-5 justify-center space-x-12 md:space-x-20'>
           <div className='flex items-center gap-2'>
             <a
               href='mailto:muturidavid854@gmail.com'
