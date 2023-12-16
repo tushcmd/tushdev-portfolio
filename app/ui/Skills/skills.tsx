@@ -3,7 +3,7 @@ import { skills } from './SkillsList.js';
 
 export default async function Skills() {
   return (
-    <section className='relative flex flex-col justify-center items-center pt-3'>
+    <section className='relative flex flex-col justify-center items-center pt-3 md:py-6'>
       <div className='flex items-start flex-col md:max-w-3xl py-10 w-full md:px-5 px-5 justify-between'>
         <h2
           className={`${montserrat.className} text-gray-400 text-2xl md:text-3xl pb-6`}
@@ -15,7 +15,7 @@ export default async function Skills() {
         >
           Here are a few technologies I&apos;ve been working with recently:
         </p>
-        <div className='px-5 mb-20 w-full'>
+        <div className='px-5 mb-5 w-full'>
           <ul className='grid grid-cols-2 gap-1 mt-5 md:grid-cols-4'>
             {skills.map((skill) => {
               const { title, icon } = skill;
@@ -30,6 +30,23 @@ export default async function Skills() {
               );
             })}
           </ul>
+        </div>
+        <div className='justify-center flex w-full py-10'>
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='72'
+            height='72'
+            viewBox='0 0 24 24'
+            fill='none'
+            stroke='#142c3e'
+            stroke-width='1'
+            stroke-linecap='round'
+            stroke-linejoin='round'
+            className='lucide lucide-chevrons-down'
+          >
+            <path d='m7 6 5 5 5-5' />
+            <path d='m7 13 5 5 5-5' />
+          </svg>
         </div>
       </div>
     </section>
