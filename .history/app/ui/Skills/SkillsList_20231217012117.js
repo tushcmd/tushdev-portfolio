@@ -10,7 +10,6 @@ import {
   SiMongodb,
   SiPostgresql,
   SiTypescript,
-  SiFigma,
 } from 'react-icons/si';
 import { DiGit } from 'react-icons/di';
  
@@ -91,10 +90,5 @@ export const skills = [
     title: 'PostgreSQL',
     icon: <SiPostgresql />,
     id: 12,
-  },
-  {
-    title: 'Figma',
-    icon: <SiFigma />,
-    id: 13,
   },
 ];
