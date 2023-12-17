@@ -1,4 +1,5 @@
 import { montserrat } from '@/app/ui/fonts';
+import about from '@/app/ui/about';
 
 export default async function GetInTouch() {
   return (
@@ -32,7 +33,7 @@ export default async function GetInTouch() {
           className={`${montserrat.className} text-gray-400 text-base md:text-xl`}
         >
           My inbox is always open. If you have an interesting project idea, a
-          question or just want to say hi, feel free to <span className='font-bold text-[#142c3e]'>get in touch</span>. I typically respond as
+          question or just want to say hi, feel free to <span className='font-bold text-teal-900'>get in touch</span>. I typically respond as
           fast as my next nearest break.
         </p>
         <div className='flex flex-row md:max-w-3xl md:py-8 py-10 w-full md:px-5 px-5 justify-center space-x-12 md:space-x-20'>

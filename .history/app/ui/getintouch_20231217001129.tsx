@@ -1,4 +1,5 @@
 import { montserrat } from '@/app/ui/fonts';
+import about from '@/app/ui/about';
 
 export default async function GetInTouch() {
   return (
