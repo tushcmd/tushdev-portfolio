@@ -8,9 +8,9 @@ import { montserrat } from './fonts';
 export default async function Footer() {
 
   const currentYear = new Date().getFullYear();
-
+  
   return (
-    <section className='relative flex flex-col justify-center items-center pt-16'>
+    <section className='relative flex flex-col justify-center items-center pt-16 border-t-0'>
       <div className='flex flex-col md:flex-row md:max-w-3xl items-center gap-8 md:gap-16 justify-center'>
         <p className={`${montserrat.className} text-gray-400 text-xl pt-3`}>Made with</p>
         <svg

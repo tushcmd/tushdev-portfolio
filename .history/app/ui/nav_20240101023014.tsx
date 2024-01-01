@@ -9,13 +9,13 @@ export default function Navbar() {
     const handleScroll = () => {
       const header = document.getElementById('header');
 
-      if (header && window.scrollY > 10) {
+      if (header && window.scrollY > 50) {
         header.classList.add('border-[#202020]')
         header.classList.add('border-b-2')
         header.classList.add('shadow-md');
       } else if (header) {
         header.classList.remove('border-[#202020]')
-        header.classList.remove('border-b-2')
+        header.classList.add('border-b-2')
         header.classList.remove('shadow-md');
       }
     };
@@ -32,7 +32,7 @@ export default function Navbar() {
       <div className='flex items-start md:max-w-3xl py-3 w-full md:px-5 px-5 justify-between'>
         <Link
           href='/'
-          className={`${comfortaa.className} antialiased font-bold text-4xl text-gray-400`}
+          className={`${comfortaa.className} antialiased font-bold text:2xl md:text-3xl text-logo`}
         >
           david<span>.</span>
         </Link>

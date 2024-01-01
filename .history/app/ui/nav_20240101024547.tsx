@@ -32,7 +32,7 @@ export default function Navbar() {
       <div className='flex items-start md:max-w-3xl py-3 w-full md:px-5 px-5 justify-between'>
         <Link
           href='/'
-          className={`${comfortaa.className} antialiased font-bold text-4xl text-gray-400`}
+          className={`${comfortaa.className} antialiased font-bold text:3xl md:text-4xl text-gray-400`}
         >
           david<span>.</span>
         </Link>
