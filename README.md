@@ -12,7 +12,7 @@
   <p align="center">
     This is my personal website which features my portfolio.
     <br />
-    <a href="https://tushdev-portfolio.vercel.app/"><strong>View live website »</strong></a>
+    <a href="https://tushdev.co/"><strong>View live website »</strong></a>
     <br />
     ·
     <a href="https://github.com/tushcmd/tushdev-portfolio/issues">Report Bug</a>
