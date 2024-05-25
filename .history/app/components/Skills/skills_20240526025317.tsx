@@ -13,7 +13,7 @@ const textClasses = {
 
 const containerClasses = 'max-w-3xl mx-auto px-5 md:px-5';
 
-export default async function Skills() {
+export default function Skills() {
   return (
     <section className='relative flex flex-col justify-center items-center pt-3 md:py-6'>
       <div className={`flex flex-col items-start justify-between py-10 w-full ${containerClasses}`}>
