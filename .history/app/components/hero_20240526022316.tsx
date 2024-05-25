@@ -10,9 +10,9 @@ const textStyles = {
 };
 
 const heroTextClasses = {
-  heading: `${textStyles.montserrat} text-2xl py-6`,
-  name: `${textStyles.comfortaa} text-5xl md:text-5xl pb-3`,
-  paragraph: `${textStyles.montserrat} text-4xl md:text-4xl`,
+  heading: `${textStyles.montserrat} text-3xl py-6`,
+  name: `${textStyles.comfortaa} text-5xl md:text-8xl pb-3`,
+  paragraph: `${textStyles.montserrat} text-4xl md:text-6xl`,
 };
 
 const containerClasses = 'max-w-3xl mx-auto px-5 md:px-5';

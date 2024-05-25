@@ -28,7 +28,7 @@ export default function Navbar() {
   }, []);
  
   return (
-    <header id='header' className='fixed flex justify-center items-center w-full z-50 t-0 bg-[#0F0F0F]'>
+    <header id='header' className='fixed flex justify-center items-center w-full z-50 t-0 bg-[#0F0F0F] max-w-3xl'>
       <div className='flex items-start max-w-3xl py-3 w-full md:px-5 px-5 justify-between'>
         <Link
           href='/'

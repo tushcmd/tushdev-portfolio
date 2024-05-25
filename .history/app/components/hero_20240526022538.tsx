@@ -10,9 +10,9 @@ const textStyles = {
 };
 
 const heroTextClasses = {
-  heading: `${textStyles.montserrat} text-2xl py-6`,
-  name: `${textStyles.comfortaa} text-5xl md:text-5xl pb-3`,
-  paragraph: `${textStyles.montserrat} text-4xl md:text-4xl`,
+  heading: `${textStyles.montserrat} text-3xl py-6`,
+  name: `${textStyles.comfortaa} text-5xl md:text-8xl pb-3`,
+  paragraph: `${textStyles.montserrat} text-4xl md:text-6xl`,
 };
 
 const containerClasses = 'max-w-3xl mx-auto px-5 md:px-5';
@@ -22,7 +22,7 @@ export default async function Hero() {
     <div className={containerClasses}>
       <section className='relative flex flex-col-reverse md:flex-row justify-center items-center h-screen md:py-16 py-6 overflow-auto'>
         <div>
-          <div className='flex flex-col items-start justify-between py-6 w-full'>
+          <div className='flex flex-col items-start justify-between w-full'>
             <p className={heroTextClasses.heading}>Hi there, I&apos;m</p>
             <h6 className={heroTextClasses.name}>{hero.name}</h6>
             <p className={heroTextClasses.paragraph}>{hero.paragraph}</p>
