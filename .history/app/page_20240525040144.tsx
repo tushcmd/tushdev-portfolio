@@ -1,15 +1,15 @@
-import Navbar from './components/shared/nav';
-import Hero from '@/app/components/hero';
+import Navbar from '@/app/ui/nav';
+import Hero from '@/app/ui/hero';
 import About from './components/about';
 import Skills from '@/app/components/Skills/skills'
-
+import Footer from './ui/footer';
+import ScrollHeader from '@/app/ui/nav';
 import GetInTouch from './components/getintouch';
-import Footer from './components/shared/footer';
 
 export default function Page() {
   return (
     <main>
-      <Navbar />
+      <ScrollHeader />
       <Hero />
       <About />
       <Skills />
