@@ -23,7 +23,7 @@ export default async function About() {
           I&apos;m {about.paragraph} <br /> {about.paragraph2}
         </p>
         <i className={textClasses.info}>
-          ⓘ this dev has a goal to create software used by millions
+          ⓘ this dev is subscribed to fireship on YouTube
         </i>
         <div className='flex flex-row pt-3 md:py-5 py-10 w-full justify-center space-x-12 md:space-x-20'>
           <svg

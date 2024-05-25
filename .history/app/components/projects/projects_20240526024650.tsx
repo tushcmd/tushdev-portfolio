@@ -10,6 +10,7 @@ export default function Projects() {
                 height={300}
             />
 
+
         </section>
     );
 }

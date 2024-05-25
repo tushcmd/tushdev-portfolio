@@ -4,7 +4,12 @@ import Scribble from '/public/ssscribble.svg'
 export default async function GetInTouch() {
   return (
     <section
-      className='relative flex flex-col justify-center items-center'>
+      style={{
+        backgroundImage: `url(${Scribble})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }} className='relative flex flex-col justify-center items-center'>
       <div className='flex items-start flex-col md:max-w-3xl pb-10 w-full md:px-5 px-5 justify-between'>
         <div className='flex items-center'>
           <h6
