@@ -35,35 +35,32 @@ export default async function Footer() {
           <a
             href='https://github.com/tushcmd'
             className='w-[21px] h-[21px] object-contain cursor-pointer'
-            target='_blank'
           >
             <Github />
           </a>
           <a
             href='https://www.linkedin.com/in/tushdev/'
             className='w-[21px] h-[21px] object-contain cursor-pointer'
-            target='_blank'
           >
             <Linkedin />
           </a>
           <a
             href='mailto:muturidavid854@gmail.com'
             className='w-[21px] h-[21px] object-contain cursor-pointer'
-            target='_blank'
           >
             <Mail />
           </a>
           <a
             href='https://twitter.com/00tush_'
             className='w-[21px] h-[21px] object-contain cursor-pointer'
-            target='_blank'
           >
-            <svg xmlns="http://www.w3.org/2000/svg" role='img' viewBox="0 0 24 24" fill="currentColor" ><title>X / Twitter Icon</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+              <path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.179-1.787.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.098-.611-.098-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path>
+            </svg>
           </a>
           <a
             href='https://www.instagram.com/6eingtush/'
             className='w-[21px] h-[21px] object-contain cursor-pointer'
-            target='_blank'
           >
             <Instagram />
           </a>

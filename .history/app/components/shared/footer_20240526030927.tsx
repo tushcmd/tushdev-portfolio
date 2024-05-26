@@ -35,35 +35,30 @@ export default async function Footer() {
           <a
             href='https://github.com/tushcmd'
             className='w-[21px] h-[21px] object-contain cursor-pointer'
-            target='_blank'
           >
             <Github />
           </a>
           <a
             href='https://www.linkedin.com/in/tushdev/'
             className='w-[21px] h-[21px] object-contain cursor-pointer'
-            target='_blank'
           >
             <Linkedin />
           </a>
           <a
             href='mailto:muturidavid854@gmail.com'
             className='w-[21px] h-[21px] object-contain cursor-pointer'
-            target='_blank'
           >
             <Mail />
           </a>
           <a
             href='https://twitter.com/00tush_'
             className='w-[21px] h-[21px] object-contain cursor-pointer'
-            target='_blank'
           >
             <svg xmlns="http://www.w3.org/2000/svg" role='img' viewBox="0 0 24 24" fill="currentColor" ><title>X / Twitter Icon</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"></path></svg>
           </a>
           <a
             href='https://www.instagram.com/6eingtush/'
             className='w-[21px] h-[21px] object-contain cursor-pointer'
-            target='_blank'
           >
             <Instagram />
           </a>
