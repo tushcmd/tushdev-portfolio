@@ -25,7 +25,7 @@ export const projects = [
     url: 'https://car-inventory-livid.vercel.app/',
     github: 'https://github.com/tushcmd/car-inventory',
     title: 'Car Inventory',
-    text: 'An interface to record data about car repairs: garage reception'
+    text: ''
   },
   {
     id: nanoid(),
@@ -33,15 +33,15 @@ export const projects = [
     url: 'https://razzo-zeta.vercel.app/',
     github: 'https://github.com/john-smilga',
     title: 'raZZo',
-    text: 'A next.js sleek futuristic mlti-page car hire landing'
+    text: 'Lorem ips'
   },
   {
     id: nanoid(),
-    img: '/next-puns-ai.png',
+    img: '/puns-dark.png',
     url: 'https://next-puns-ai.vercel.app/',
     github: 'https://github.com/tushcmd/next-puns-ai',
     title: 'Puns AI',
-    text: 'Uses next api handlers and openai api to give puns from a topic entered'
+    text: 'Lorem ips'
   },
   {
     id: nanoid(),
@@ -56,7 +56,7 @@ export const projects = [
     img: '/localhost8080.png',
     url: 'https://garage-server-4ypk.onrender.com/',
     github: 'https://github.com/tushcmd/garage-server',
-    title: 'Garage API',
+    title: 'first project',
     text: 'This is a RESTful API built with Node.js, Express, and MongoDB.'
   },
 ]

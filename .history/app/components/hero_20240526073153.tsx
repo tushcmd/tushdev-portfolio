@@ -27,7 +27,7 @@ export default function Hero() {
             <h6 className={heroTextClasses.name}>{hero.name}</h6>
             <p className={heroTextClasses.paragraph}>{hero.paragraph}</p>
           </div>
-          <div className='flex flex-row pt-3 md:py-5 py-5 w-full justify-center space-x-12 md:space-x-20'>
+          <div className='flex flex-row pt-3 md:py-5 py-8 w-full justify-center space-x-12 md:space-x-20'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='60'

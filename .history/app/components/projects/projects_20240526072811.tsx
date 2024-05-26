@@ -32,7 +32,7 @@ export default function Projects() {
                 </div>
             </div>
             <div className='flex flex-row pt-3 md:py-5 py-10 w-full justify-center space-x-12 md:space-x-20'>
-                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#142c3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-code-xml"><path d="m18 16 4-4-4-4" /><path d="m6 8-4 4 4 4" /><path d="m14.5 4-5 16" /></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#142c3e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-xml"><path d="m18 16 4-4-4-4" /><path d="m6 8-4 4 4 4" /><path d="m14.5 4-5 16" /></svg>
                 <div className='flex items-center gap-2'>
                     <a
                         href='https://github.com/tushcmd'

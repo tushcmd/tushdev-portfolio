@@ -25,39 +25,39 @@ export const projects = [
     url: 'https://car-inventory-livid.vercel.app/',
     github: 'https://github.com/tushcmd/car-inventory',
     title: 'Car Inventory',
-    text: 'An interface to record data about car repairs: garage reception'
+    text: ''
   },
   {
     id: nanoid(),
     img: '/raZZo.png',
-    url: 'https://razzo-zeta.vercel.app/',
+    url: 'https://react-projects.netlify.app/',
     github: 'https://github.com/john-smilga',
     title: 'raZZo',
-    text: 'A next.js sleek futuristic mlti-page car hire landing'
+    text: 'Lorem ips'
   },
   {
     id: nanoid(),
-    img: '/next-puns-ai.png',
-    url: 'https://next-puns-ai.vercel.app/',
-    github: 'https://github.com/tushcmd/next-puns-ai',
+    img: '/puns-dark.png',
+    url: 'https://react-projects.netlify.app/',
+    github: 'https://github.com/john-smilga',
     title: 'Puns AI',
-    text: 'Uses next api handlers and openai api to give puns from a topic entered'
+    text: 'Lorem ips'
   },
   {
     id: nanoid(),
     img: '/tushdev.png',
-    url: 'https://tushdev.co/',
-    github: 'https://github.com/tushcmd/tushdev-portfolio',
+    url: 'https://react-projects.netlify.app/',
+    github: 'https://github.com/john-smilga',
     title: 'Portfolio Website',
-    text: ' This is my personal website which features my portfolio.'
+    text: 'Lorem ips'
   },
   {
     id: nanoid(),
     img: '/localhost8080.png',
-    url: 'https://garage-server-4ypk.onrender.com/',
-    github: 'https://github.com/tushcmd/garage-server',
-    title: 'Garage API',
-    text: 'This is a RESTful API built with Node.js, Express, and MongoDB.'
+    url: 'https://react-projects.netlify.app/',
+    github: 'https://github.com/john-smilga',
+    title: 'first project',
+    text: 'Lorem ips'
   },
 ]
 

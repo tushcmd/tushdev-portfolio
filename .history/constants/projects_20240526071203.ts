@@ -25,7 +25,7 @@ export const projects = [
     url: 'https://car-inventory-livid.vercel.app/',
     github: 'https://github.com/tushcmd/car-inventory',
     title: 'Car Inventory',
-    text: 'An interface to record data about car repairs: garage reception'
+    text: ''
   },
   {
     id: nanoid(),
@@ -37,11 +37,11 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '/next-puns-ai.png',
+    img: '/puns-dark.png',
     url: 'https://next-puns-ai.vercel.app/',
     github: 'https://github.com/tushcmd/next-puns-ai',
     title: 'Puns AI',
-    text: 'Uses next api handlers and openai api to give puns from a topic entered'
+    text: 'Lorem ips'
   },
   {
     id: nanoid(),

@@ -37,7 +37,7 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: '/next-puns-ai.png',
+    img: '/puns-dark.png',
     url: 'https://next-puns-ai.vercel.app/',
     github: 'https://github.com/tushcmd/next-puns-ai',
     title: 'Puns AI',
