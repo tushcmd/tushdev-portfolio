@@ -71,9 +71,8 @@ export default function GetInTouch() {
             <path d='m14 8 2 2-2 2' />
           </svg>
         </div>
-        
+        <Image src="/dark-thin.png" alt="tush coding" width={300} height={300} />
       </div>
-      <Image src="/dark-thin.png" alt="tush coding" width={300} height={300} />
     </section>
   );
 }
