@@ -4,7 +4,7 @@ import Projects from '../../../constants/projects';
 
 export default function ProjectsCard({ url, img, github, title, text }: Projects) {
     return (
-        <article className="rounded-md text-gray-400 bg-[#202020] shadow-md hover:shadow-xl duration-300">
+        <article className="rounded-md text-gray-400 bg-[#202020] shadow-md hover:shadow-xl duration-300 border-[1px] border-gray-800">
 
             <Image
                 src={img}
@@ -20,7 +20,7 @@ export default function ProjectsCard({ url, img, github, title, text }: Projects
                         <Eye className='h-7 w-7 text-gray-400 hover:text-[#142c3e] duration-300 p-1' />
                     </a>
                     <a href={github} target='_blank'className='rounded-sm border border-[#142c3e]'>
-                        <Github className='h-7 w-7 text-gray-400 hover:text-[#142c3e]  duration-300 p-1' />
+                        <Github className='h-7 w-7 text-gray-400 hover:text-[#142c3e]  duration-300' />
                     </a>
                 </div>
             </div>

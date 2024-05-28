@@ -9,8 +9,8 @@ export default function ProjectsCard({ url, img, github, title, text }: Projects
             <Image
                 src={img}
                 alt={title}
-                width={350}
-                height={153}
+                width={360}
+                height={163}
             />
             <div className='p-2'>
                 <h2 className='text-xl tracking-wide font-medium'>{title}</h2>

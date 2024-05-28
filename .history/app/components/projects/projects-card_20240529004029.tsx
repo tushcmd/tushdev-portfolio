@@ -10,7 +10,7 @@ export default function ProjectsCard({ url, img, github, title, text }: Projects
                 src={img}
                 alt={title}
                 width={350}
-                height={153}
+                height={500}
             />
             <div className='p-2'>
                 <h2 className='text-xl tracking-wide font-medium'>{title}</h2>
