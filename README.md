@@ -24,5 +24,3 @@
 ## About this repository
 
 - This is my personal website which is built with Next.
-- There is no **license** ! feel free to use any piece of code you find on this
-  repository.

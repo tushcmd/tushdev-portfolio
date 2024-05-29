@@ -6,7 +6,7 @@ import Image from "next/image";
 // Extracted styles
 const textStyles = {
   montserrat: `${montserrat.className} text-white`,
-  comfortaa: `${comfortaa.className} text-[#D1D5DB] font-bold`,
+  comfortaa: `${comfortaa.className} text-[#D1D5DB] md:animated-gradient font-bold`,
 };
 
 const heroTextClasses = {
