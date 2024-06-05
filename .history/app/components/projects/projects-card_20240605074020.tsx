@@ -17,7 +17,7 @@ export default function ProjectsCard({ url, img, github, title, text }: Projects
             <div className='p-4'>
                 <h2 className='text-xl tracking-wide font-medium'>{title}</h2>
                 <p className='pt-2 leading-loose'>{text}</p>
-                <div className='mt-4 flex gap-x-4 pb-2'>
+                <div className='mt-4 flex gap-x-4 pb-4'>
                     <a href={url} target='_blank' className='rounded-sm border border-[#142c3e]'>
                         <Eye className='h-7 w-7 text-gray-400 hover:text-[#142c3e] duration-300 p-1' />
                     </a>

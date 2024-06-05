@@ -24,7 +24,7 @@ export default function Projects() {
                     I have built a bunch of cool stuff overtime, here is a few I&apos;m proud of:
                 </p>
                 <div className='px-5 mb-5 w-full'>
-                    <div className='py-16 md:grid md:grid-cols-2 flex flex-col gap-8 md:gap-6'>
+                    <div className='py-16 md:grid md:grid-cols-2 flex flex-col gap-4'>
                         {projects.map((project) => (
                             <ProjectsCard key={project.id} {...project} />
                         ))}
