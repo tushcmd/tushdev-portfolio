@@ -1,6 +1,6 @@
 import { montserrat } from '../../fonts';
-import ProjectsCard from "./projects-card";
-//import { ProjectCardWithBeam } from './projects-card-withbeam';
+//import ProjectsCard from "./projects-card";
+import { ProjectCardWithBeam } from './projects-card-withbeam';
 import { projects } from '../../../constants/projects';
 
 // Extracted styles
@@ -26,7 +26,7 @@ export default function Projects() {
                 <div className='px-5 mb-5 w-full'>
                     <div className='py-16 md:grid md:grid-cols-2 flex flex-col gap-8'>
                         {projects.map((project) => (
-                            <ProjectsCard key={project.id} {...project} />
+                            <ProjectCardWithBeam key={project.id} {...project} />
                         ))}
                     </div>
                 </div>

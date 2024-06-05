@@ -1,11 +1,11 @@
 import { Github, Eye } from 'lucide-react'
 import Image from 'next/image'
 import Projects from '../../../constants/projects';
-
+import { BorderBeam } from '../magicui/border-beam'
 
 export default function ProjectsCard({ url, img, github, title, text }: Projects) {
     return (
-        <div className="rounded-md text-gray-400 bg-[#202020] shadow-md hover:shadow-xl duration-300">
+        <div className="border rounded-md text-gray-400 bg-[#202020] shadow-md hover:shadow-xl duration-300">
 
             <Image
                 src={img}
@@ -25,7 +25,7 @@ export default function ProjectsCard({ url, img, github, title, text }: Projects
                     </a>
                 </div>
             </div>
-            
+            <BorderBeam size={250} duration={12} delay={9} />
         </div>
     )
 }
