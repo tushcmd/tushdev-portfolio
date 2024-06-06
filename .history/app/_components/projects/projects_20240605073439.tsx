@@ -1,6 +1,5 @@
 import { montserrat } from '../../fonts';
-//import ProjectsCard from "./projects-card";
-import ProjectsCard from "./project-card";
+import ProjectsCard from "./projects-card";
 //import { ProjectCardWithBeam } from './projects-card-withbeam';
 import { projects } from '../../../constants/projects';
 
