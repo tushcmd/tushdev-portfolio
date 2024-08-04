@@ -13,7 +13,6 @@ import {
   SiShadcnui,
   SiZod,
   SiPrisma,
-  SiPython,
 } from "react-icons/si";
 import { DiGit } from "react-icons/di";
 
@@ -33,11 +32,6 @@ export const skills = [
   {
     title: "Typescript",
     icon: <SiTypescript />,
-    id: nanoid(),
-  },
-  {
-    title: "Python",
-    icon: <SiPython />,
     id: nanoid(),
   },
   {
