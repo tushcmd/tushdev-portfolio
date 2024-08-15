@@ -46,8 +46,7 @@ export default function Hero() {
             </svg>
             <div className='flex items-center gap-2'>
               <a
-                href='https://drive.google.com/file/d/1-GErZBhE5zGBVzgnjcwkouLILuWlMmxc/view?usp=sharing'
-                // href='https://drive.google.com/file/d/1Y6ltpcJoaDld2AxbKD947_Zlb4wvmxJ6/view?usp=drive_link'
+                href='https://drive.google.com/file/d/1OOyOS3y2vhu7NSw1U7t0LDDXvQVvQ66F/view?usp=sharing'
                 target='_blank'
                 rel='_noreferrer'
                 className='flex items-center gap-1 md:hover:bg-slate-200 rounded-md px-12 bg-gray-400 text-black font-medium py-[1.08rem]'
