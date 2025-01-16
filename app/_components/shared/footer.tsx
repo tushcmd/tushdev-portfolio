@@ -14,7 +14,8 @@ const textClasses = {
 const containerClasses = 'max-w-3xl mx-auto px-5 md:px-5';
 
 export default async function Footer() {
-  const currentYear = new Date().getFullYear();
+  const date = new Date();
+  const currentYear = date.getFullYear();
 
   return (
     <section className='relative flex flex-col justify-center items-center pt-16'>
@@ -54,7 +55,7 @@ export default async function Footer() {
             <Mail />
           </a>
           <a
-            href='https://twitter.com/00tush_'
+            href='https://twitter.com/0xtush'
             className='w-[21px] h-[21px] object-contain cursor-pointer'
             target='_blank'
           >
