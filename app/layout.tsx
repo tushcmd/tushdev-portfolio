@@ -16,12 +16,12 @@ export const metadata: Metadata = {
       'de-DE': '/de-DE',
     },
   },
-  title: 'Muturi | Web & Mobile developer',
-  description: 'I am highly passionate about creating sleek and reliable software.',
+  title: 'Muturi David | Software Engineer',
+  description: 'Building innovative solutions with AI/ML and modern web technologies.',
   robots: 'index, follow',
   openGraph: {
-    title: 'Muturi | Web & Mobile developer',
-    description: 'Passionate web developer who loves creating sleek and reliable software.',
+    title: 'Muturi David | Software Engineer',
+    description: 'Building innovative solutions with AI/ML and modern web technologies.',
     url: 'https://tushdev.co/',
   }
 }
