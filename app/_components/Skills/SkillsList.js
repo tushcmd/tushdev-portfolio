@@ -11,9 +11,10 @@ import {
   SiFigma,
   SiDocker,
   SiShadcnui,
-  SiZod,
+  // SiZod,
   SiPrisma,
   SiPython,
+  SiTensorflow,
 } from "react-icons/si";
 import { DiGit } from "react-icons/di";
 
@@ -48,11 +49,6 @@ export const skills = [
   {
     title: "Next.JS",
     icon: <SiNextdotjs />,
-    id: nanoid(),
-  },
-  {
-    title: "Zod",
-    icon: <SiZod />,
     id: nanoid(),
   },
 
@@ -101,6 +97,11 @@ export const skills = [
   {
     title: "Prisma",
     icon: <SiPrisma />,
+    id: nanoid(),
+  },
+  {
+    title: "Zod",
+    icon: <SiTensorflow />,
     id: nanoid(),
   },
   {
