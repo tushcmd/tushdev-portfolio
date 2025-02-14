@@ -100,7 +100,7 @@ export const skills = [
     id: nanoid(),
   },
   {
-    title: "Zod",
+    title: "Tensorflow",
     icon: <SiTensorflow />,
     id: nanoid(),
   },
